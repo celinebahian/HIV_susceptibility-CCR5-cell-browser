@@ -8,6 +8,10 @@
 
 **Date:** September 24, 2026
 
+# Part A. Assigned Gene and Disease
+
+HIV-susceptibility
+
 # PART B. Organ/Tissue Choice and Dataset Information
 
 | Item | Information |
@@ -16,7 +20,7 @@
 | **Organ/Tissue** | Peripheral blood mononuclear cells (PBMCs) |
 | **Cell Types** | T cells, B cells, monocytes, dendritic cells, and other immune cells |
 | **Gene** | CCR5 |
-| **Reason for Selection** | PBMCs contain immune cells where CCR5 is relevant. CCR5 is a chemokine receptor involved in immune-cell signaling and is also associated with HIV infection. |
+| **Reason for Selection** | PBMCs contain immune cells where CCR5 is naturally expressed. Because CCR5 functions as an HIV co-receptor in T cells and monocytes, this tissue is relevant for studying HIV susceptibility. |
 | **Dataset URL** | https://cells.ucsc.edu/?ds=covid19-pbmc |
 
 <img width="1106" height="601" alt="image" src="https://github.com/user-attachments/assets/35708e4a-de73-4d22-ae30-95a303082af5" />
@@ -32,13 +36,13 @@
 | **What do the clusters represent?** | Groups of cells with similar gene-expression profiles, representing different immune cell types. |
 | **Cell-type/cluster labels** | CD4_T, CD8_T, B_cell, CD14_mono, CD16_mono, Treg, MAIT, NK_CD56hi, NK_CD56lo |
 
-# Part D. Cell Types and Clusters
+# Part D. Assigned Gene Expression
 
 | Part | Answer |
 |---|---|
 | **a. Assigned gene symbol** | CCR5 |
 | **b. Dataset used** | COVID-19 PBMC |
-| **c. Is expression widespread, restricted, or low/undetected** | Low/undetected overall and relatively restricted |
+| **c. Is expression widespread, restricted, or low/undetected** | Relatively restricted with low-to-moderate expression. |
 | **d. Which cluster(s) appear to contain cells with stronger expression?** | Lymph_prolif, CD8_T, CD4_T Treg, CD14_mono, CD16_mono |
 | **e. Which cluster(s) appear to contain little or no detectable expression?** | B_cell, Plasmablast, RBC, Platelets, HSPC, pDC |
 
@@ -46,7 +50,7 @@
 
 **Figure 2.** Cell-type annotation map of the COVID-19 PBMC dataset showing the major annotated cell clusters, including CD8_T, CD4_T Treg, CD14_mono, CD16_mono, B_cell, Plasmablast, and other cell populations.
 
-# PART E.  Expression Plot
+# PART E. Cell Types and Clusters
 
 | Requirement | Observation |
 |---|---|
@@ -60,7 +64,7 @@
 
 **Figure 3.** CCR5 gene-expression map of the COVID-19 PBMC dataset showing CCR5 expression across annotated cell clusters. Stronger expression is observed in selected T-cell and monocyte populations, while other clusters show little or no detectable expression.
 
-# PART F. Marker Genes
+# PART F. Expression Plot
 
 | Question | Answer |
 |---|---|
@@ -72,7 +76,7 @@
 
 **Figure 4.** Dot plot showing CCR5 expression across cell types in the COVID-19 PBMC dataset. Dot color represents average CCR5 expression, while dot size represents the fraction of cells with detectable (non-zero) CCR5 expression.
 
-# PART G. Disease Gene vs. Marker Gene
+# PART G. Marker Genes
 
 | Item | Answer |
 |---|---|
@@ -86,7 +90,7 @@
 
 **Figure 5.** Cluster marker genes for CD14_mono in the COVID-19 PBMC dataset. LYZ, S100A9, and S100A8 are among the highest-ranked marker genes shown for the CD14_mono cluster
 
-# PART H. Connection to Genome Browser and ClinVar
+# PART H. Disease Gene vs. Marker Gene
 
 | Item | Answer |
 |---|---|
@@ -100,7 +104,7 @@
 
 **Figure 6.** LYZ expression across annotated cell populations in the COVID-19 PBMC dataset. LYZ shows stronger expression in monocyte-related populations, particularly CD14_mono, CD16_mono, cDC, and Mono_prolif, providing a comparison with the more limited CCR5 expression pattern.
 
-# PART I. Connect the Cell Browser Result to Your Previous Genome Activity
+# PART I. Connection to Genome Browser and ClinVar
 
 **1. On which chromosome is your assigned gene located? Use your previous UCSC Genome Browser activity.**
    
@@ -112,11 +116,11 @@ CCR5-Δ32 (CCR5 Delta 32) — a 32-base-pair deletion in the CCR5 gene.
    
 **3. In the current Cell Browser dataset, which cell type(s) express the gene?**
 
-CCR5 is detectable mainly in T-cell and monocyte-related cell types, including CD14_mono and and some. The expression is relatively low and appears in only some cells within some populations.
+CCR5 is mainly detectable in T-cell and monocyte-related cell types, including CD8_T, CD4_T Treg, CD14_mono, and CD16_mono. Expression is relatively low and occurs in only a subset of cells within these populations.
    
 **4. Does the observed cell expression make biological sense based on what you already know about the gene's function or associated disease? Explain in 3-5 sentences.**
 
-Yes. CCR5 is involved in the immune system. It makes sense that it is found in some T cells and monocytes. This matches its role in immune responses.
+Yes, CCR5 is involved in the immune system. It makes sense that it is found in some T cells and monocytes. This matches its role in immune responses.
    
 **5. Can this single Cell Browser dataset prove that the gene causes the disease? Explain why or why not.**
 
@@ -146,11 +150,11 @@ I found it interesting that CCR5 was mostly seen in some T cells and monocytes. 
 
 # References and Links
 
-UCSC Cell Browser – COVID-19 PBMC dataset
+UCSC Cell Browser. (n.d.). *COVID-19 PBMC dataset*.
 https://cells.ucsc.edu/?ds=covid19-pbmc
 
-UCSC Genome Browser
+UCSC Genome Browser. (n.d.). *UCSC Genome Browser*.
 https://genome.ucsc.edu/
 
-ClinVar – NCBI (only if you actually used ClinVar in your previous activity)
+National Center for Biotechnology Information. (n.d.). *ClinVar*.
 https://www.ncbi.nlm.nih.gov/clinvar/
