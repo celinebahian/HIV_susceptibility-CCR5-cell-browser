@@ -102,45 +102,45 @@
 
 # PART I. Connect the Cell Browser Result to Your Previous Genome Activity
 
-1. On which chromosome is your assigned gene located? Use your previous UCSC Genome Browser activity.
+**1. On which chromosome is your assigned gene located? Use your previous UCSC Genome Browser activity.**
    
 Chromosome 3
    
-2. What disease-associated variant did you examine previously?
+**2. What disease-associated variant did you examine previously?**
 
 CCR5-Δ32 (CCR5 Delta 32) — a 32-base-pair deletion in the CCR5 gene.
    
-3. In the current Cell Browser dataset, which cell type(s) express the gene?
+**3. In the current Cell Browser dataset, which cell type(s) express the gene?**
 
 CCR5 is detectable mainly in T-cell and monocyte-related cell types, including CD14_mono and and some. The expression is relatively low and appears in only some cells within some populations.
    
-4. Does the observed cell expression make biological sense based on what you already know about the gene's function or associated disease? Explain in 3-5 sentences.
+**4. Does the observed cell expression make biological sense based on what you already know about the gene's function or associated disease? Explain in 3-5 sentences.**
 
 Yes. CCR5 is involved in the immune system. It makes sense that it is found in some T cells and monocytes. This matches its role in immune responses.
    
-5. Can this single Cell Browser dataset prove that the gene causes the disease? Explain why or why not.
+**5. Can this single Cell Browser dataset prove that the gene causes the disease? Explain why or why not.**
 
 No. The dataset only shows where CCR5 is expressed. It cannot prove that CCR5 causes the disease and more research and experiments are needed.
 
 # PART J. Short Reflection
 
-1. What did the UCSC Cell Browser show you that the UCSC Genome Browser could not?
+**1. What did the UCSC Cell Browser show you that the UCSC Genome Browser could not?**
 
 The Cell Browser showed me which cells have CCR5 and how much they express it. The Genome Browser mainly shows the gene’s location and DNA information.
 
-2. Why can the same gene have different expression levels among different cell types?
+**2. Why can the same gene have different expression levels among different cell types?**
 
 Different cells have different jobs in the body. Because of this, some genes are more active in certain cells than others.
 
-3. Why should you be careful when interpreting a gene that shows zero or very low expression in single-cell data?
+**3. Why should you be careful when interpreting a gene that shows zero or very low expression in single-cell data?**
 
 A low or zero result does not always mean the gene is not there. Sometimes the gene is just not detected in that cell because of limits in the data.
 
-4. Why is it useful to combine information about genomic location, genetic variants, and cell-specific gene expression?
+**4. Why is it useful to combine information about genomic location, genetic variants, and cell-specific gene expression?**
 
 It helps us understand a gene from different points of view. We can see where the gene is, what changes it may have, and which cells use it.
 
-5. What was the most interesting observation you made about your assigned gene?
+**5. What was the most interesting observation you made about your assigned gene?**
 
 I found it interesting that CCR5 was mostly seen in some T cells and monocytes. Its expression was not very high, but it could still be detected in some cells.
 
